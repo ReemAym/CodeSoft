@@ -1,0 +1,206 @@
+ul{
+    list-style-type: none;
+}
+
+body{
+  margin: 0;
+  background-image: url('./images/download (1).jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+*{
+    margin: 0;
+}
+
+.navigation{
+  display: flex;
+  padding: 10px;
+  top: 0;
+  background-color: white;
+}
+
+.navigation img{
+    height: 60px;
+}
+  
+.navigation ul{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    justify-content:space-between ;
+}
+
+.navigation ul li{
+    padding:30px ;
+    color: rgb(18, 41, 92);
+}
+
+.navigation ul .select{
+    background-color: rgb(26, 58, 107);
+    color: white;
+    padding-top: 27px;
+    border-top: 3px solid rgb(226, 41, 226);
+    box-sizing: border-box;
+}
+
+.navigation ul li span{
+    position: relative;
+    margin-top: 5px;
+}
+
+.trip{
+  background-color:rgb(26, 58, 107) ;
+  display: inline-block;
+  position: relative;
+  justify-content: left;
+  align-items: center;
+  padding: 15px 20px 40px;
+  margin: 130px auto 50px;
+  border-radius: 0 15px 15px 15px;
+}
+
+.trip ::before{
+    content: "FlIGHTS";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: -17%;
+    width: 13%;
+    height: 17%;
+    border-radius: 15px 15px 0 0;
+    background-color: rgb(26, 58, 107);
+    z-index: 1;
+}
+
+.trip ::after{
+    content: "HOTLES |" " CAR HIRE";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 12%;
+    top: -17%;
+    height: 17%;
+    width: 26%;
+    border-radius: 0 10px 0 0;
+    background-color: rgb(82, 175, 187);
+}
+
+.trip .radio{
+    display: flex;
+}
+
+.trip .radio label{
+    padding: 10px;
+    color: white;
+}
+
+.trip .radio input{
+    float: right;
+}
+
+.trip .middle{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: right;
+}
+
+.trip .middle div{
+    text-align: left;
+    margin:20px;
+
+}
+
+.trip .middle p{
+     color: rgb(80, 111, 138);
+}
+
+.trip .middle label{
+    color: white;
+    margin-left: 10px;
+}
+
+.trip .middle select{
+    display: block;
+    height: 40px;
+    width: 300px;
+    margin:20px 0;
+}
+
+.trip .info {
+    display: flex;
+}
+
+.trip .info .text{
+    margin: 0 20px;
+    text-align: left;
+}
+
+.trip .info p{
+    color: rgb(80, 111, 138);
+    margin: 5px 0;
+}
+
+.trip .info input{
+    height: 40px;
+}
+
+.trip .info .text{
+    width: 160px;
+}
+
+.trip .info .num{
+    width: 130px;
+}
+
+.trip .info button{
+    padding:0 30px ;
+    height: 50px;
+    margin: 25px 0;
+    color: white;
+    background-color: rgb(214, 61, 219);
+}
+
+.scroll{
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+}
+.scroll img{
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+}
+
+.scroll span{
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    transform: translateY(-50%);
+    top: 50%;
+    color: gray;
+}
+
+footer{
+    background-color: white;
+    height: 150px;
+    position: relative;
+}
+
+footer h3{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: rgb(111, 228, 189);
+}
